@@ -68,6 +68,7 @@ docker image build -t transit-manage-sys-build .
 Note: I have used volume mount for both "trips.csv" and "taps.csv" which are provided in the source code. Therefore you can run the following docker command while being able to make changes to "taps.csv" file locally and the running the following docker commands and be able to get the output of "trips.csv" in your local "trips.csv" file
 
 <b>Run container with Volume mounts for taps.csv and trips.csv</b>
+
 docker container run --name tms_machine --rm -v /Users/path/to/FareSys/taps.csv:/taps.csv -v /Users/path/to/FareSys/trips.csv:/trips.csv transit-manage-sys-build:latest
 
 
