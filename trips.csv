@@ -1,0 +1,4 @@
+Started, Finished, DurationSecs, FromStopId, ToStopId, ChargeAmount, CompanyId, BusID, PAN, Status
+22-01-2018 13:00:00, 22-01-2018 13:05:00, 300, Stop1, Stop2, $3.25, Company1, Bus37, 5500005555555559, COMPLETED
+22-01-2018 13:05:00, 22-01-2018 13:05:05, 5, Stop2, Stop2, $0.0, Company1, Bus37, 5500005555555669, CANCELLED
+22-01-2018 13:05:00, null, null, Stop1, null, $7.3, Company1, Bus37, 5500005555555779, INCOMPLETE

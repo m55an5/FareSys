@@ -1,4 +1,6 @@
-class BusStopRoute {
+package app.fareSys;
+
+public class BusStopRoute {
 	private int routeCost;
 	private BusStopNode destinationVertex;
 	

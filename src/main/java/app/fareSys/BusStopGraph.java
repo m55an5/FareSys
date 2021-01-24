@@ -1,3 +1,5 @@
+package app.fareSys;
+
 import java.util.HashSet;
 
 public class BusStopGraph {
@@ -43,7 +45,6 @@ public class BusStopGraph {
 				max = bsr.getRouteCost();
 			} 
 		}
-		
 		return max;
 	}
 	

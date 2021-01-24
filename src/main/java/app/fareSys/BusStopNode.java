@@ -1,7 +1,9 @@
+package app.fareSys;
+
 import java.util.LinkedList;
 
 
-class BusStopNode {
+public class BusStopNode {
 	private String name;
 	private LinkedList<BusStopRoute> routeList;
 	

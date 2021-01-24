@@ -1,3 +1,4 @@
+package app.fareSys;
 
 public class Trip {
 
@@ -11,6 +12,7 @@ public class Trip {
 	private String pan;
 	private String status;
 	private int tripCharge;
+	private String tripDurationSecs; 
 	
 	public Trip(String startTime, String finishTime, String lastTapType, String startStopID, String finishStopID,
 			String busID, String companyID, String pan, String status, int tripCharge) {
@@ -104,6 +106,14 @@ public class Trip {
 
 	public void setTripCharge(int tripCharge) {
 		this.tripCharge = tripCharge;
+	}
+
+	public String getTripDurationSecs() {
+		return tripDurationSecs;
+	}
+
+	public void setTripDurationSecs(String tripDurationSecs) {
+		this.tripDurationSecs = tripDurationSecs;
 	}
 	
 }
