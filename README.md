@@ -4,10 +4,17 @@ Assumption:
 1. There is no need to add new bustops and routes through this system
 2. Only working with 3 bus stops (We can add more, it would need to be hard coded in the main method)
 
-   
+# Section 1
+
 ## Gradle VERSION Gradle 6.6.1 (for compiling, unit testing and automation testing)
 
 Run the following commands from within the project folder: /FareSys/
+
+<b>found an issue with gradle wrapper</b>
+
+Run this in terminal (anywhere): gradle wrapper
+
+<b>If</b> the following ./gradlew commands still dont run refer to the commands in the next section 2
 
 <b>To compile: </b>
 ./gradlew build
@@ -32,16 +39,9 @@ java -jar ./build/libs/FareSys-1.0.0.jar taps.csv
 
 java -jar ./build/libs/FareSys-1.0.0.jar /User/abc/Downloads/taps.csv
 
+# Section 2
 
 ## For Gradle Version 5.0 ( as tested on ubuntu)
-
-<b>found an issue with gradle wrapper</b>
-
-Run this in terminal (anywhere): gradle wrapper
-
-<b>If</b> ./gradlew commands still dont run refer the following commands.
-
-
 
 
 Run the following commands from within the project folder: /FareSys/
@@ -57,9 +57,12 @@ gradle cucumber
 
 <br \>
 
+# Section 3 
+
 ## Docker Comamnd - Execution and Running
 
 <b>Building</b>
+
 docker image build -t transit-manage-sys-build .
 
 
